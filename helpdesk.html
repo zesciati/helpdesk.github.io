@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpDesk</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="helpdeskCss.css">
+
+</head>
+<body>
+
+<header class="header">
+
+    <a href="#" class="logo"><img src="logo2.img.png"></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">message</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <div class="dropdown">
+        <button class="dropbtn">profile
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="logout.php">Logout</a>
+        </div>
+    </div>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Selamat Datang</h3>
+        <p>Aplikasi helpdesk ini bisa anda gunakan jika anda membutuhkan bantuan mengenai permasalahan di bidang ekonomi, sarana prasarana maupun keilmuan di wilayah Universitas, hubungi kami dan kami siap membantu.</p>
+        
+    </div>
+
+    <div class="image">
+        <img src="help.img.png" alt="help">
+    </div>
+
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> <span>Need Help?</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="chat.img.png" alt="livechat">
+            <h3>Ticketing</h3>
+            <p>Mengirimkan keluhan atau permasalahan yang dihadapi dengan ticketing</p>
+            <a href="index.php" class="btn" id="ticket">Send ur problem</a>
+        </div>
+        <div class="box">
+            <img src="telephone.img.png" alt="tlpn">
+            <h3>Telephone</h3>
+            <p>Sedang dalam keadaan darurat?<br>Hubungi kami dengan nomor dibawah ini</p><br>
+            <a href="#" class="notlp">+62-877525180</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+    
+    <div class="row">
+
+        <div class="image">
+            <img src="logo2.img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="title">Helpdesk</h3>
+            <p>Sebuah program yang bertanggung jawab untuk menjawab berbagai pertanyaan dari mahasiswa. Aplikasi 
+                helpdesk ini dapat memberikan saran, informasi, serta menerima keluhan dari mahasiswa jika menghadapi masalah, 
+                masalah yang terkait dengan bidang tertentu. 
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="icons-container" id="call">
+        <div class="icons">
+            <i class="fas fa-phone" id="callAquila"></i>
+            <h3>our number</h3>
+            <a href="#">+62-877525180</a>
+        </div>
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>Aquila.team@gmail.com</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our location</h3>
+            <p>Indonesia, yogyakarta-Kaliurang</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+        
+        <div class="box">
+            <h3>our lokasi</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Indonesia </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> message </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>Message</h3>
+            <a href="#"> <i class="fas fa-check"></i> Ticketing </a>
+            <a href="#"> <i class="fas fa-check"></i> Telephone</a>
+        </div>
+
+    </div>
+
+    <div class="credit">created by <span>Aquila team | fighting</div>
+
+</section>
+
+<script src="helpdeskjs.js"></script>
+
+</body>
+</html>
